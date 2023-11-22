@@ -9,15 +9,15 @@ function getLista(){
 
 }
 
-function adicionaNaLista(){
-
+function adicionaNaLista(item){
+    lista.push(item);
 }
 
-function removeDaLista(){
-
+function removeDaLista(posição){
+    lista.splice(posição, 1);
 }
 
 function limpaLista(){
-
+    lista.splice(0);
 }
 export {getLista, adicionaNaLista, removeDaLista, limpaLista};
