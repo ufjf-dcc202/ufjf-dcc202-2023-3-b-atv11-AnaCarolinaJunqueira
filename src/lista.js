@@ -6,7 +6,6 @@ const lista = [
 
 function getLista(){
     return lista;
-
 }
 
 function adicionaNaLista(item){
